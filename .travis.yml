@@ -1,6 +1,6 @@
 lannguage: ruby
 rvm:
-- 2.1
+  - 2.1
 
 install: gem install jekyll html-proofer
 script: jekyll build && htmlproof ./_site
