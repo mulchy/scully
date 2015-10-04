@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scully.🐶</title>
+    <description>Documenting the journey of the worlds cutest dog &quot;Scully&quot;. She&#39;&#39;s a skeptic!
+</description>
+    <link>http://scully.dog/</link>
+    <atom:link href="http://scully.dog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 04 Oct 2015 13:55:31 -0500</pubDate>
+    <lastBuildDate>Sun, 04 Oct 2015 13:55:31 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>First post!</title>
+        <description>&lt;p&gt;This is my attempt at a website to showcase my cute and cuddly dog, Scully. I hope to fill it with pictures and videos of our adventures together over the years. Leave some comments and let me know what you think!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://scully.dog/images/scully.jpg&quot; alt=&quot;Scully&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://scully.dog/scully/2015/10/04/first-post.html</link>
+        <guid isPermaLink="true">http://scully.dog/scully/2015/10/04/first-post.html</guid>
+        
+        
+        <category>scully</category>
+        
+      </item>
+    
+  </channel>
+</rss>
