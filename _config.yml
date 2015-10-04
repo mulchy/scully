@@ -9,3 +9,5 @@ github_username:  mulchy
 
 # Build settings
 markdown: kramdown
+
+exclude: [vendor]
