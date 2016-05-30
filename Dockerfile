@@ -1,6 +1,8 @@
 FROM node
 MAINTAINER mulchy
 
+#TODO build needs to copy src code over
+
 WORKDIR /code
 RUN npm install
 
