@@ -2,6 +2,6 @@ web:
   extends:
     file: common.yml
     service: web
+  command: npm run build
   volumes:
-    - ./:/code
-    - /code/node_modules
+    - ./dist:/code/dist
