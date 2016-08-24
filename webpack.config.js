@@ -2,7 +2,8 @@ var path = require('path');
 module.exports = {
   entry: {
     javascript: './src/client/js/index.jsx',
-    html: './src/client/html/index.html'
+    html: './src/client/html/index.html',
+    css: './src/client/css/styles.css'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -20,6 +21,10 @@ module.exports = {
       },
       {
         test: /\.html$/,
+        loader: 'file?name=[name].[ext]'
+      },
+      {
+        test: /\.css$/,
         loader: 'file?name=[name].[ext]'
       }
     ]

@@ -2,6 +2,3 @@ web:
   extends:
     file: common.yml
     service: web
-  volumes:
-    - ./:/code
-    - /code/node_modules

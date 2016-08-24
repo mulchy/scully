@@ -1,0 +1,9 @@
+header ul {
+  text-align:center;
+}
+
+header li {
+  display: inline-block;
+  list-style: none;
+  padding: 1em;
+}

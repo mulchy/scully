@@ -9,7 +9,8 @@
   "scripts": {
     "test": "mocha --recursive",
     "build": "webpack",
-    "start": "webpack-dev-server --host 0.0.0.0 --port 3000"
+    "start": "webpack-dev-server --host 0.0.0.0 --port 3000",
+    "copy": "cp ./node_modules/normalize.css/normalize.css src/client/css"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "immutable": "^3.8.1",
+    "normalize.css": "^4.1.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-router": "^2.4.1"
